@@ -8,7 +8,8 @@
 
 a
 {
-color: black;
+color: grey;
+text-decoration: unset;
 }
 
 h2
@@ -30,7 +31,7 @@ body
 margin: 0px;
 padding: 0px;
 border: 0px;
-background-color: red;
+background-color: white;
 }
 
 .container
@@ -45,7 +46,7 @@ background-color: #cccccc;
 header
 {
   width: 1360px;
-  height: 60px;
+  height: 80px;
   background-color:white;
   text-align: center;
   border: 1px;  
@@ -55,11 +56,12 @@ header
 {
     margin-left: 200px;
     background-color:#4aaaa5;
-    padding-left: 20px;
-    padding-right: 20px;
-    height:60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    height:80px;
     float: left;
-}
+    color: white;
+    }
 
 .clearfix::after
  {
@@ -71,7 +73,7 @@ header
 .Detials
 {
   margin-right: 200px;
-  color: black;
+  color: grey;
   background-color:white;
   padding-left: 20px;
   padding-right: 20px;
@@ -89,8 +91,9 @@ header
 Main
 {
   margin-top: 20px;
+  margin-bottom: 65px;
   width: 750px;
-  height: 600px;
+  height: 550px;
   margin-left: 200px;
   margin-right: 200px;
   background-color:white;
@@ -100,3 +103,35 @@ Main
   
 }
 
+footer
+{
+  width: 1360px;
+  height: 60px;
+  background-color:#666666;
+  text-align: center;
+  border: 1px;
+  color: white;  
+}
+
+hr
+{
+  margin-right: 50px;
+  border-top: 2px solid #cccccc;
+}
+
+Aside
+{
+height: 200px;  
+width: 200px;
+float: left;
+}
+
+#intro
+{
+  width:  650px;
+  height: 250px;
+  text-align: left;
+  margin-left: 20px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:  #cccccc;
+}
