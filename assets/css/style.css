@@ -93,7 +93,7 @@ Main
   margin-top: 20px;
   margin-bottom: 65px;
   width: 750px;
-  height: 550px;
+  height: 450px;
   margin-left: 200px;
   margin-right: 200px;
   background-color:white;
@@ -110,7 +110,10 @@ footer
   background-color:#666666;
   text-align: center;
   border: 1px;
-  color: white;  
+  color: white; 
+  font-size: 12px;
+  padding-right: 80px;
+  padding-top: 30px;
 }
 
 hr
@@ -133,5 +136,20 @@ float: left;
   text-align: left;
   margin-left: 20px;
   font-family:Arial, Helvetica, sans-serif;
-  color:  #cccccc;
+  color:  grey;
 }
+
+.band
+{
+  width: 1360px;
+  height: 5px;
+  background-color:#4aaaa5;  
+
+}
+
+form
+{
+  text-align: left;
+  color: gray;
+}
+
