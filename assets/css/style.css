@@ -1,0 +1,102 @@
+*,
+*::after,
+*::before
+{
+  box-sizing: border-box;
+}
+
+
+a
+{
+color: black;
+}
+
+h2
+{
+text-align: left;  
+color:#4aaaa5;
+}
+
+.clearfix::after
+ {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+
+body
+{
+margin: 0px;
+padding: 0px;
+border: 0px;
+background-color: red;
+}
+
+.container
+{
+margin: 0px;
+width: 1360px;
+height: 768px; 
+background-color: #cccccc;  
+}
+
+
+header
+{
+  width: 1360px;
+  height: 60px;
+  background-color:white;
+  text-align: center;
+  border: 1px;  
+}
+
+.Name
+{
+    margin-left: 200px;
+    background-color:#4aaaa5;
+    padding-left: 20px;
+    padding-right: 20px;
+    height:60px;
+    float: left;
+}
+
+.clearfix::after
+ {
+    content: " ";
+    display: block;
+    clear: both;
+ }
+
+.Detials
+{
+  margin-right: 200px;
+  color: black;
+  background-color:white;
+  padding-left: 20px;
+  padding-right: 20px;
+  height:60px;
+  float: right;  
+}
+
+.clearfix::after
+ {
+    content: " ";
+    display: block;
+    clear: both;
+ }
+
+Main
+{
+  margin-top: 20px;
+  width: 750px;
+  height: 600px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color:white;
+  text-align: center;
+  padding-left: 30px;
+  padding-top: 20px;
+  
+}
+
