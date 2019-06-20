@@ -93,7 +93,7 @@ Main
   margin-top: 20px;
   margin-bottom: 65px;
   width: 750px;
-  height: 450px;
+  height: 375px;
   margin-left: 200px;
   margin-right: 200px;
   background-color:white;
@@ -157,13 +157,17 @@ form
 {
   float: left;
   width: 750px;
-  height: 450px;  
+  height: 450px;
+  
 }
 
 #sec1,
-#sec2
+#sec2,
+#sec3,
+#sec4
+
 {
 float: left;  
+margin-right: 20px;
 }
-
 
