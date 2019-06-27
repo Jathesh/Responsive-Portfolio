@@ -310,4 +310,35 @@ textarea
   background-color:#4aaaa5;
 }
 
+.clearfix::after
+ {
+    content: " ";
+    display: block;
+    clear: both;
+ }
+
+
+#sec1,
+#sec2,
+#sec3,
+#sec4
+{
+float: left;  
+width: 100px;
+height:100px;
+margin-right: 20px;
+margin-bottom: 20px;
+} 
+
+img
+{
+width: 100px;
+height: 100px;
+margin-right: 20px;
+float: left;
+margin-bottom: 20px;
+} 
+
+
+
 }
